@@ -1,0 +1,213 @@
+[
+    {
+        "title": "Milky Mist Sweet Lassi - Rose Flavour, Hydrating, Creamy, 180 ml ",
+        "brand": "Milky Mist",
+        "description": " Sweet Lassi Rose Flavour, Hydrating, Creamy, 180 ml",
+        "price": 30,
+        "filename": "milky-mist-sweet-lassi-rose-flavour-hydrating-creamy.jpg",
+        "rating": 5,
+        "catagory": "lassi",
+        "id": "1"
+    },
+    {
+        "title": "Amul Lassi - Rose Flavour, Source of Calcium & Protein, 250 ml Carton ",
+        "brand": "Amul",
+        "description": "Rose Flavoured Lassi, Source of Calcium & Protein, 250 ml Carton",
+        "price": 23,
+        "filename": "amul-lassi.jpg",
+        "rating": 5,
+        "catagory": "lassi",
+        "id": "2"
+    },
+    {
+        "title": "Nestle Everyday Dairy Whitener - Milk Powder for Tea, 1 kg Pouch",
+        "brand": "Nestle",
+        "description": " Milk Powder for Tea, 1 kg Pouch",
+        "price": 570,
+        "filename": "nestle-everyday-dairy-whitener-milk-powder-for-tea.jpg",
+        "rating": 5,
+        "catagory": "milk_powder",
+        "id": "3"},
+    {
+        "title": "Nestle Everyday Dairy Whitener - Milk Powder For Tea, 200 g Pouch",
+        "brand": "Nestle",
+        "description": "Nestle Everyday Dairy Whitener - Milk Powder For Tea, 200 g Pouch",
+        "price": 113,
+        "filename": "smal-nestle-everyday-dairy-whitener-milk-powder-for-tea.jpg",
+        "rating": 5,
+        "catagory": "milk_powder",
+        "id": "4"
+    },
+    {
+        "title": "Amul Kool Milk - Kesar Flavour, 180 ml Pet Bottle",
+        "brand": "Amul",
+        "description": "Kesar Flavoured Milk, 180 ml Pet Bottle",
+        "price": 22,
+        "filename": "40005022_4-amul-kool-kesar.jpg",
+        "rating": 5,
+        "catagory": "flavoured_milk",
+        "id": "5"
+    },
+    {
+        "title": "Amul Processed Cheese Cubes, 500 g 20 Cubes",
+        "brand": "Amul",
+        "description": "Processed Cheese Cubes, 500 g 20 Cubes",
+        "price": 293,
+        "filename": "40003792_3-amul-cheese-cubes-processed.jpg",
+        "rating": 5,
+        "catagory": "cheese",
+        "id": "6"
+    },
+    {
+        "title": "Hersheys Milk Shake - Chocolate, 180 ml",
+        "brand": "Hersheys",
+        "description": "Chocolate Flavoured Milk Shake, 180 ml",
+        "price": 35,
+        "filename": "40088412_6-hersheys-milk-shake-chocolate.jpg",
+        "rating": 5,
+        "catagory": "flavoured_milk",
+        "id": "7"
+    },
+    {
+        "title": "Hersheys Milk Shake - Strawberry, 180 ml",
+        "brand": "Hersheys",
+        "description": "Strawberry Flavoured Milk Shake, 180 ml",
+        "price": 35,
+        "filename": "40088414_13-hersheys-milk-shake-strawberry.jpg",
+        "rating": 5,
+        "catagory": "flavoured_milk",
+        "id": "8"
+    },
+    {
+        "title": "Milky Mist Fruit Yoghurt - Strawberry",
+        "brand": "Milky Mist",
+        "description": "Milky Mist Fruit Yoghurt - Strawberry, Great Source Of Probiotics, Light & Healthy, 100 g",
+        "price": 60,
+        "filename": "40123244_5-milky-mist-fruit-yoghurt-strawberry.jpg",
+        "rating": 5,
+        "catagory": "yoghurt",
+        "id": "9"
+    },
+    {
+        "title": "Milky Mist Fruit Yoghurt - Blueberry",
+        "brand": "Milky Mist",
+        "description": "Milky Mist Fruit Yoghurt - Blueberry, Great Source Of Probiotics, Light & Healthy, 100 g",
+        "price": 60,
+        "filename": "40100924_4-milky-mist-fruit-yoghurt-blueberry.jpg",
+        "rating": 5,
+        "catagory": "yoghurt",
+        "id": "10"
+    },
+    {
+        "title": "Milky Mist Fruit Yoghurt - Mango",
+        "brand": "Milky Mist",
+        "description": "Milky Mist Fruit Yoghurt - Mango, Great Source Of Probiotics, Light & Healthy, 100 g",
+        "price": 60,
+        "filename": "40124116_6-milky-mist-fruit-yoghurt-mango.jpg",
+        "rating": 5,
+        "catagory": "yoghurt",
+        "id": "11"
+    },
+    {
+        "title": "Milky Mist Farm Fresh Curd - No Preservatives, 500 g Pouch",
+        "brand": "Milky Mist",
+        "description": "Milky Mist Farm Fresh Curd - No Preservatives, 500 g Pouch",
+        "price": 46,
+        "filename": "40003162_5-milky-mist-curd-farm-fresh.jpg",
+        "rating": 5,
+        "catagory": "curd",
+        "id": "12"
+    },
+    {
+        "title": "Amul Malai Paneer, 200 g Pouch",
+        "brand": "Amul",
+        "description": "Amul Malai Paneer, 200 g Pouch",
+        "price": 87,
+        "filename": "279588_6-amul-malai-paneer.jpg",
+        "rating": 5,
+        "catagory": "paneer",
+        "id": "14"
+    },
+    {
+        "title": "Amul Butter - Pasteurized, 4x100 g Multipack",
+        "brand": "Amul",
+        "description": "Amul Butter - Pasteurized, 4x100 g Multipack",
+        "price": 216,
+        "filename": "1204991_3-amul-butter-pasteurized.jpg",
+        "rating": 5,
+        "catagory": "butter",
+        "id": "15"
+    },
+    {
+        "title": "Amul Pasteurised Butter, 100 g Carton",
+        "brand": "Amul",
+        "description": "Amul Pasteurised Butter, 100 g Carton",
+        "price": 54,
+        "filename": "104860_8-amul-butter-pasteurised.jpg",
+        "rating": 5,
+        "catagory": "butter",
+        "id": "16"
+    },
+    {
+        "title": "Amul Pasteurised Butter, 500 g Carton",
+        "brand": "Amul",
+        "description": "Amul Pasteurised Butter, 500 g Carton",
+        "price": 265,
+        "filename": "104864_8-amul-butter-pasteurised.jpg",
+        "rating": 5,
+        "catagory": "butter",
+        "id": "17"
+    },
+    {
+        "title": "Milky Mist Cooking Butter - Unsalted, 4x100 g Multipack",
+        "brand": "Milky Mist",
+        "description": "Milky Mist Cooking Butter - Unsalted, 4x100 g Multipack",
+        "price": 288,
+        "filename": "1213682-7_1-milky-mist-cooking-butter-unsalted.jpg",
+        "rating": 5,
+        "catagory": "butter",
+        "id": "18"
+    },
+    {
+        "title": "Nandini GoodLife Buttermilk - Spiced, 200 ml Carton",
+        "brand": "Nandini",
+        "description": "Nandini GoodLife Buttermilk - Spiced, 200 ml Carton",
+        "price": 15,
+        "filename": "258324_8-nandini-butter-milk-spiced.jpg",
+        "rating": 5,
+        "catagory": "buttermilk",
+        "id": "19"
+    },
+    {
+        "title": "Amul Gold Homogenised Standardised Milk, 500 ml Carton",
+        "brand": "Amul",
+        "description": "Amul Gold Homogenised Standardised Milk, 500 ml Carton",
+        "price": 39,
+        "filename": "40012985_3-amul-homogenized-milk.jpg",
+        "rating": 5,
+        "catagory": "milk",
+        "id": "20"
+    },
+    {
+        "title": "Amul Gold Homogenised Standardised Milk, 1 L Carton",
+        "brand": "Amul",
+        "description": "Amul Gold Homogenised Standardised Milk, 1 L Carton",
+        "price": 75,
+        "filename": "amul_goldmilk.jpg",
+        "rating": 5,
+        "catagory": "milk",
+        "id": "21"
+    },
+    {
+        "title": "Amul Gold Homogenised Standardised Milk, 2x1 L Multipack",
+        "brand": "Amul",
+        "description": "Amul Gold Homogenised Standardised Milk, 2x1 L Multipack",
+        "price": 152,
+        "filename": "1209043_2-amul-gold-homogenised-standardised-milk.jpg",
+        "rating": 5,
+        "catagory": "milk",
+        "id": "22"
+    }
+    
+
+]

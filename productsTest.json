@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Milky Mist Sweet Lassi - Rose Flavour, Hydrating, Creamy, 180 ml ",
+        "brand": "Milky Mist",
+        "description": " Sweet Lassi Rose Flavour, Hydrating, Creamy, 180 ml",
+        "price": 30,
+        "filename": "milky-mist-sweet-lassi-rose-flavour-hydrating-creamy.jpg",
+        "rating": 5,
+        "catagory": "lassi",
+        "id": "1"
+    },
+    {
+        "title": " Rose Flavour, Hydrating, Creamy, 180 ml ",
+        "brand": "Milky Mist",
+        "description": " Sweet Lassi Rose Flavour, Hydrating, Creamy, 180 ml",
+        "price": 30,
+        "filename": "milky-mist-sweet-lassi-rose-flavour-hydrating-creamy.jpg",
+        "rating": 5,
+        "catagory": "lassi",
+        "id": "1"
+    }
+]
