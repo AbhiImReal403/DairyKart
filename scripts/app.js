@@ -436,19 +436,19 @@ searchForm.addEventListener('submit',(e) => {
 
 
 
-fetch('/products.json').then((response) => {
-// console.log(response);
-return response.json();
-}).then((data) => {
-data.forEach((data => {
-    updatePro(data);
-}))
-}).catch(err=>{
-console.log(err);
-})
-
-window.onbeforeunload = updateKart();
-window.onbeforeunload = updateKartPage();
+fetch('products.json').then((response) => {
+    // console.log(response);
+    return response.json();
+    }).then((data) => {
+    data.forEach((data => {
+        updatePro(data);
+    }))
+    }).catch(err=>{
+    console.log(err);
+    })
+    
+    window.onbeforeunload = updateCart();
+    window.onbeforeunload = updateKartPage();
 
 
 
