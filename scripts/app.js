@@ -27,8 +27,8 @@ fetch('products.json').then((response) => {
     console.log(err);
     })
     
-//     window.onbeforeunload = updateCart();
-//     window.onbeforeunload = updateKartPage();
+    window.onbeforeunload = updateCart();
+    window.onbeforeunload = updateKartPage();
     
 
 
@@ -447,8 +447,8 @@ searchForm.addEventListener('submit',(e) => {
 //     console.log(err);
 //     })
     
-    window.onbeforeunload = updateCart();
-    window.onbeforeunload = updateKartPage();
+//     window.onbeforeunload = updateCart();
+//     window.onbeforeunload = updateKartPage();
 
 
 
