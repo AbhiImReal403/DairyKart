@@ -16,7 +16,7 @@ const kartPage = document.querySelector(".kartPage");
 
 
 
-fetch('/products.json').then((response) => {
+fetch('products.json').then((response) => {
     // console.log(response);
     return response.json();
     }).then((data) => {
