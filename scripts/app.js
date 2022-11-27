@@ -447,7 +447,7 @@ searchForm.addEventListener('submit',(e) => {
 //     console.log(err);
 //     })
     
-    window.onbeforeunload = updateCart();
+//     window.onbeforeunload = updateCart();
     window.onbeforeunload = updateKartPage();
 
 
