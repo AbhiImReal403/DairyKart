@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %> 
+<body>
+    <div class="container-fluid">
+      
+    
+
+      <!-- NavBar -->
+
+    <%- include("./partials/nav.ejs") %>
+      
+
+    <!-- Product Carosoul -->
+    
+    <%- include('./partials/productCarosoul') %> 
+      
+      <!-- Products Page -->
+    <section class="container page-area my-5">
+
+      
+      <!-- product section -->
+      <section class="container">
+        <div class="row align-items-center justify-content-center g-5 products">
+            
+          <!-- Dynamic Products -->
+
+          <!-- <div class="card col-lg-4 mb-1 " style="width: 20rem;" data-product-cata="lassi">
+            <img src="/static/images/products/milky-mist-sweet-lassi-rose-flavour-hydrating-creamy.jpg" class="card-img-top" alt="...">
+            <div class="card-body w-100" style="height:270px !important; width:300px !important">
+                <h5 class="card-title text-center mb-3">Milky Mist Sweet Lassi - Rose Flavour, Hydrating, Creamy, 180 ml </h5>
+                <p class="card-text text-muted w-auto mb-3 " width:200px="" !important"=""> Sweet Lassi Rose Flavour, Hydrating, Creamy, 180 ml</p>
+                <div class="mb-3">
+                    <p class="display-6 ms-3 my-4 me-3 d-inline text-dark fw-bold">₹ 30</p>
+                    <span class="btn btn-primary addCart">Add to Cart</span>
+                </div>
+            </div>
+            </div>   -->
+
+        </div>
+      </section>
+    </section>
+
+
+      <!-- Footer -->
+
+      <%- include('./partials/footer') %> 
+
+    </div>
+    <%- include('./partials/scripts.ejs') %> 
+</html>

@@ -1,0 +1,82 @@
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top navi-bar">
+    <div class="container-fluid ">
+      <a class="navbar-brand h3" href="/"><img alt="Brand" src="/static/images/icons/milk.png" height="30px" width="30px" style="display: inline-block;"> DairyKart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-5 ps-5 me-5 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active me-1" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item dropdown me-1">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"data-bs-auto-close="outside">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" onclick="filterPage(null)">All Products</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" onclick="filterPage('milk')">Milk</a></li>
+              <li><a class="dropdown-item" onclick="filterPage('flavoured_milk')">Flavoured Milk</a></li>
+              <li><a class="dropdown-item" onclick="filterPage('milk_powder')">Milk Powder</a></li>
+              <li><a class="dropdown-item" onclick="filterPage('yoghurt')">Yogurts</a></li>
+              <li><a class="dropdown-item" onclick="filterPage('cheese')">Cheese</a></li>
+              <li><a class="dropdown-item" onclick="filterPage('curd')">Curd</a></li>
+              <li><a class="dropdown-item" onclick="filterPage('butter')">Butter & Spreads</a></li>
+              <li><a class="dropdown-item" onclick="filterPage('paneer')">Paneer & Tofu</a></li>
+              <li><a class="dropdown-item" onclick="filterPage('lassi')">Buttermilk & Lassi</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active me-1" aria-current="page" href="#home">Deals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact us</a>
+          </li>
+        </ul>
+        <form class="d-none d-lg-flex searchForm me-md-0 ms-lg-auto" role="search">
+            <input class="form-control searchIn" type="search" id="search" placeholder="Search" aria-label="Search">
+            <button class=" ms-2 btn btn-outline-light ms-2" type="submit">Search</button>
+        </form> 
+
+
+        <!-- Cart Section -->
+
+        <div class="cartify ms-5 ps-5 me-1 mb-2 mb-lg-0 ms-lg-1 ps-lg-1 me-1 justify-content-end">
+
+          <div class="btn-group">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+              <div class="d-none d-lg-flex flex-row align-items-center">
+              <span class="cart text-primary"><i class='bx bxs-cart'></i></span>
+              <span class='badge' id='CartCount'></span>   
+              </div>
+              <span class="fw-bold text-white">Cart</span>
+
+            </button>
+            <ul class="dropdown-menu dropdown-menu dropdown-menu-lg-end cartList" aria-labelledby="dropdownMenuClickableInside">
+              <li><h6 class="dropdown-header">Cart</h6></li>
+              
+              <li><hr class="dropdown-divider"></li>
+              <li class="ps-5 me-0 pe-0 dropdown-item text-muted subTotal"><span class="ms-4 me-0">empty</span></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-light text-center active" href="/cart">view cart</a></li>
+            </ul>
+          </div>
+        
+        </div>
+        
+
+        <!-- login -->
+
+
+        <%- include('./loginNav') %> 
+
+        <div class="nav-item nav-link ms-5 ps-5 me-auto ms-md-1 me-md-1 d-md-flex justify-content-end ps-lg-1">
+          <a class="nav-link active fw-bold text-light" aria-current="page" href="/signup">SignUp</a>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </nav>
