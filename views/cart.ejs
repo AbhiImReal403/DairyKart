@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %> 
+<body>
+    <div class="container-fluid">
+      
+    
+
+      <!-- NavBar -->
+
+      <!-- NavBar -->
+
+      <%- include('./partials/nav') %> 
+      
+
+    
+      
+       <!-- Cart Page -->
+      <section class="container page-area my-5">
+
+        <!-- Product Carosoul -->
+        
+      <%- include('./partials/productCarosoul') %> 
+
+
+        <!-- Cart section -->
+        <section class="container my-5">
+          <div class="row align-items-center justify-content-center g-5 cartCheckout">
+              
+            <!-- Dynamic Products checkout -->
+
+            <div class="col-md-8 mb-1 pt-3 border rounded kartInvoicelist">
+              <h5 class="fw-50 text-start text-muted">Carted Items</h5>
+
+             
+
+            </div>
+
+            <!-- invoice -->
+
+            <div class="col-md-4 invoiceCard h-100 mt-5 mb-auto">
+              <div class="card">
+
+
+                <div class="card-header">Invoice</div>
+                <div class="card-body invoiceBody">
+                </div>
+                <hr class="card-divider">
+                <div class="card-body">
+                  <p class="card-text ">Subtotal : <span class="d-flex justify-content-end subTotal">₹ 0</span></p>
+                  <p class="card-text">Delivery Charges : <span class="d-flex justify-content-end">₹ 20</span></p>
+                </div>
+                <div class="card-footer fw-bold">
+                Total : 
+                  <span class="d-flex justify-content-end finalTotal">₹ 0</span>
+
+                </div>
+
+                <span class="btn btn-primary checkoutCart">Check Out</span>
+              </div>
+            </div>
+
+
+
+
+          </div>
+          
+        </section>
+      </section>
+
+
+      <!-- Footer -->
+
+    <%- include('./partials/footer') %> 
+      
+
+
+    <%- include('./partials/scripts.ejs') %> 
+</body>
+</html>

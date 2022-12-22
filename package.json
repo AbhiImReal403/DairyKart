@@ -1,0 +1,27 @@
+{
+  "name": "dairykart-2.0",
+  "version": "2.0.0",
+  "description": "DairyCart Website APP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dairy",
+    "app"
+  ],
+  "author": "AbhiImReal404",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.0",
+    "morgan": "^1.10.0",
+    "validator": "^13.7.0"
+  }
+}
